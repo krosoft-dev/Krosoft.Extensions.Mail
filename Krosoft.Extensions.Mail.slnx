@@ -1,0 +1,15 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/Krosoft.Extensions.Mail.Abstractions/Krosoft.Extensions.Mail.Abstractions.csproj" />
+    <Project Path="src/Krosoft.Extensions.Mail.Mailjet/Krosoft.Extensions.Mail.Mailjet.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Krosoft.Extensions.Mail.Abstractions.Tests/Krosoft.Extensions.Mail.Abstractions.Tests.csproj" />
+  </Folder>
+</Solution>

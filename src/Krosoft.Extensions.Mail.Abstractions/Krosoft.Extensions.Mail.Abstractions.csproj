@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<PackageTags>Krosoft Extension Mail Abstraction</PackageTags>
+		<Description>Package d'abstraction de la gestion des mails.</Description>
+	</PropertyGroup>
+</Project>

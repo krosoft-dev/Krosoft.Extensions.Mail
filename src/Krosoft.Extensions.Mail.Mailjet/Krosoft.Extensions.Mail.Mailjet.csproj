@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<PackageTags>Krosoft Extension Mail Smtp Mailjet</PackageTags>
+		<Description>Package pour faciliter l'envoie de mail via Mailjet.</Description>
+	</PropertyGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'net9.0'">
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.3" />
+		<PackageReference Include="Mailjet.Api" Version="3.0.0" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.3" />
+		<PackageReference Include="Mailjet.Api" Version="3.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Krosoft.Extensions.Core" Version="2025.3.27.1279" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Krosoft.Extensions.Mail.Abstractions\Krosoft.Extensions.Mail.Abstractions.csproj" />
+	</ItemGroup>
+</Project>
