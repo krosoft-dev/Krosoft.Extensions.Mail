@@ -4,17 +4,17 @@
 		<Description>Package pour faciliter l'envoie de mail via Mailjet.</Description>
 	</PropertyGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net9.0'">
-		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" />
-		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.3" />
-		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.13" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.13" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.13" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.13" />
 		<PackageReference Include="Mailjet.Api" Version="3.0.1" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
-		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" />
-		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.3" />
-		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.13" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.13" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.13" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.13" />
 		<PackageReference Include="Mailjet.Api" Version="3.0.1" />
 	</ItemGroup>
 	<ItemGroup>
