@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<ItemGroup>
 		<PackageReference Include="JetBrains.Annotations" Version="2025.2.4" />
-		<PackageReference Include="Krosoft.Extensions.Testing" Version="2026.4.16.6652" />
+		<PackageReference Include="Krosoft.Extensions.Testing" Version="2026.4.22.6870" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\..\src\Krosoft.Extensions.Mail.Abstractions\Krosoft.Extensions.Mail.Abstractions.csproj" />
