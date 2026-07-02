@@ -11,7 +11,7 @@
 		<PackageReference Include="Mailjet.Api" Version="4.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Krosoft.Extensions.Core" Version="2026.6.24.7749" />
+		<PackageReference Include="Krosoft.Extensions.Core" Version="2026.6.30.7936" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Krosoft.Extensions.Mail.Abstractions\Krosoft.Extensions.Mail.Abstractions.csproj" />
