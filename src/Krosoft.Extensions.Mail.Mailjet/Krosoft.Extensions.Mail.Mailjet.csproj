@@ -8,7 +8,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.9" />
 		<PackageReference Include="Microsoft.Extensions.Options" Version="10.0.9" />
 		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.9" />
-		<PackageReference Include="Mailjet.Api" Version="4.0.0" />
+		<PackageReference Include="Mailjet.Api" Version="4.0.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Krosoft.Extensions.Core" Version="2026.7.6.8052" />
