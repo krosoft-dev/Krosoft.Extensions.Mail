@@ -1,4 +1,4 @@
-name: Nuget 'Krosoft.Extensions.Mail.Abstractions' - $(Date:yyyy.MM.dd).$(BuildID)
+name: Nuget 'Krosoft.Extensions.Mail' - $(Date:yyyy.MM.dd).$(BuildID)
 
 pr: none
 
@@ -15,12 +15,12 @@ trigger:
       - main
   paths:
     include:
-      - "**/Krosoft.Extensions.Mail.Abstractions/*"
+      - src
+      - Directory.Build.props
 
 extends:
   template: tools/devops/templates/pipelines/nuget-template.yml@Krosoft.Extensions
   parameters:
     packages:
-     - "Krosoft.Extensions.Mail.Abstractions"
-     
-
+      - "Krosoft.Extensions.Mail.Abstractions"
+      - "Krosoft.Extensions.Mail.Mailjet"
