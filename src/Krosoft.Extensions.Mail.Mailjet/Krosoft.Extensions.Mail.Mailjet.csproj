@@ -4,10 +4,10 @@
 		<Description>Package pour faciliter l'envoie de mail via Mailjet.</Description>
 	</PropertyGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
-		<PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.15" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.15" />
-		<PackageReference Include="Microsoft.Extensions.Options" Version="10.0.15" />
-		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="11.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="11.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="11.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="11.0.0" />
 		<PackageReference Include="Mailjet.Api" Version="4.1.0" />
 	</ItemGroup>
 	<ItemGroup>
